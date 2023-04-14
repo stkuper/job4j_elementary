@@ -32,4 +32,11 @@ public class CheckPrimeNumberTest {
         boolean result = CheckPrimeNumber.check(number);
         assertThat(result).isFalse();
     }
+
+    @Test
+    public void when2() {
+        int number = 2;
+        boolean result = CheckPrimeNumber.check(number);
+        assertThat(result).isTrue();
+    }
 }
