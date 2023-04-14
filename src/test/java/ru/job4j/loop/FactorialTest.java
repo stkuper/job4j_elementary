@@ -22,9 +22,9 @@ class FactorialTest {
     }
 
     @Test
-    public void whenCalculateFactorialForMinusOneThenZero() {
-        int n = -1;
-        int expected = 0;
+    public void whenCalculateFactorialForTenThenThreeMillionSixHundredTwentyEightThousandEightHundred() {
+        int n = 10;
+        int expected = 3628800;
         int result = Factorial.calc(n);
         assertThat(result).isEqualTo(expected);
     }
