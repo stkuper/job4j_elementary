@@ -2,11 +2,11 @@ package ru.job4j.array;
 
 public class ArrayLoop {
     public static void main(String[] args) {
-        int[] intArray = new int[5];
-        for (int i = 0; i < intArray.length; i++) {
-            intArray[i] = i * 2 + 3;
+        int[] numbers = new int[5];
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = i * 2 + 3;
         }
-        for (int num : intArray) {
+        for (int num : numbers) {
             System.out.println(num);
         }
     }
